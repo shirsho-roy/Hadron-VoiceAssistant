@@ -6,15 +6,19 @@
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
 }
-
+body{
+  background-image: url("pexels-pavel-danilyuk-8294650.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 .main {
   min-height: 100vh;
   position: relative;
   width: 100%;
   /* background: rgb(135, 116, 116); */
-  background-image: url("pexels-pavel-danilyuk-8294650.jpg");
+  /* background-image: url("pexels-pavel-danilyuk-8294650.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +27,10 @@
 .intr{
     color: #239dad;
 }
+.ent{
+  text-align: center;
+  color: #79eafc;
+margin-bottom: 7px;}
 .d1{
   margin-top: 80px;
     display: flex;
@@ -155,4 +163,7 @@
 .xx{
   margin-top: 0;
   position: sticky;
+}
+footer{
+  margin-bottom: auto;
 }

@@ -43,7 +43,9 @@ function speakThis(message) {
         const finalText = "Hello Boss.Hadron is Web Assistant that can help you get your results faster.";
         speech.text = finalText;
     }
-
+    else if(message.includes('wish me')){
+        wishMe();
+    }
     else if(message.includes('how are you')) {
         const finalText = "I am fine boss tell me how can i help you";
         speech.text = finalText;
